@@ -2,6 +2,6 @@
 title: "Category"
 layout: categories
 permalink: /categories/
-author_progile: true
+author_profile: true
 sidebar_main: true
 ---
