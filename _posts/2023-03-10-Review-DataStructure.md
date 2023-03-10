@@ -26,7 +26,7 @@ search: true #true, false
 >
 > 자료구조와 알고리즘은 밀접한 관계가 있어서 자료구조가 결정되면 그 자료구조에서 사용할 수 있는 알고리즘이 결정된다.   
 
-![Image01](C:\blogmaker\images\2023-03-10-Review-DataStructure\image-20230310171935121.png)
+![Image01]({{site.url}}\images\2023-03-10-Review-DataStructure\image-20230310171935121.png)
 
 ### 알고리즘이란?
 
