@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "자료 구조"
-categories: Data Structure
+categories: DataStructure
 tag: C언어
 toc: true
 author_profile: false
