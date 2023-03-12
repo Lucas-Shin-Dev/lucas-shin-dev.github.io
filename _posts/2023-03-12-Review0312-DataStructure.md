@@ -8,6 +8,7 @@ author_profile: false
 sidebar:
     nav: "docs"
 search: true #true, false
+use_math: true
 ---
 
 ## 2.1 순환의 소개
