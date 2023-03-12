@@ -21,7 +21,7 @@ use_math: true
 
 ### 순환의 예
 
-$n! = 
+$\n! = 
 
 \begin{cases} 
 
