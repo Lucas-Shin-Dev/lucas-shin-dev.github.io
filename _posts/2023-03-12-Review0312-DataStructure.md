@@ -21,9 +21,15 @@ use_math: true
 
 ### 순환의 예
 
-$n! = \begin{cases} 1, \mbox{if }n \mbox{ =0} \\ 
+$n! = 
 
-n*(n-1)! \mbox{if }n\mbox{ >=1} \end{cases}\$
+\begin{cases} 
+
+1, & \mbox{if }n \mbox{ =0} \\ 
+
+n*(n-1)!, &  \mbox{if }n\mbox{ >=1} 
+
+\end{cases}\$
 
 ```c
 int factorial(int n) {
