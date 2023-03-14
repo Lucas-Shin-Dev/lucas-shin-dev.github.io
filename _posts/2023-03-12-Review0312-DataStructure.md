@@ -22,7 +22,8 @@ use_math: true
 ### 순환의 예
 
 $$
-n! = \begin{cases} 
+n! = 
+\begin{cases} 
 1, & \mbox{if n=0} \\\\
 n*(n-1)!, &  \mbox{if n>=1} 
 \end{cases}
