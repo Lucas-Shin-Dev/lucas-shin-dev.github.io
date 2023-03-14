@@ -23,9 +23,10 @@ use_math: true
 
 $n! = 
 \begin{cases} 
-1, & \mbox{if } n\mbox{ =0} \\   
-n*(n-1)!, &  \mbox{if } n\mbox{ >=1} 
+1, & \mbox{if n=0} \\
+n*(n-1)!, &  \mbox{if n>=1} 
 \end{cases}\$
+
 
 ```c
 int factorial(int n) {
