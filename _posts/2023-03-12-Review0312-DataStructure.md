@@ -23,7 +23,7 @@ use_math: true
 
 $n! = 
 \begin{cases} 
-1, & \mbox{if } n\mbox{ =0} \\\\
+1, & \mbox{if } n\mbox{ =0} \\   
 n*(n-1)!, &  \mbox{if } n\mbox{ >=1} 
 \end{cases}\$
 
