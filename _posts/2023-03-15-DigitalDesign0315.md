@@ -25,9 +25,9 @@ r number system의 예로
 
 16 number system, r=16, hexadecimal 16진법이 있다
 
-$ a_5*a_4*a_3*a_2*a_1*a_0*a_-1*a_-2*a_-3 
+$ {a_5}*{a_4}*{a_3}*{a_2}*{a_1}*{a_0}*{a_-1}*{a_-2}*{a_-3} \$ 
 
- = a_5*r^5+a_4*r^4+a_3*r^3+a_2*r^2+a_1*r^1+a_0*r^0+a_-1*r^-1+a_-2*r^-2+a_-3*r^2-3 \$
+$ = a_5*r^5+a_4*r^4+a_3*r^3+a_2*r^2+a_1*r^1+a_0*r^0+a_-1*r^-1+a_-2*r^-2+a_-3*r^2-3 \$
 
 산술 연산은 decimal(10진법)과 같은 규칙으로 연산한다.
 
@@ -49,7 +49,7 @@ decimal의 소수는 나누는 대신 1만 남을 때까지 곱한다.
 
 ![image-20230315163359898](C:\Users\wymam\AppData\Roaming\Typora\typora-user-images\image-20230315163359898.png)
 
-따라서 $(41.06875)_(10) \$는 2진수로 변환하면 $(101001.1011)_2$로 나타낼 수 있다.
+따라서 $(41.06875)_{10} \$는 2진수로 변환하면 $(101001.1011)_2$로 나타낼 수 있다.
 
 
 
@@ -203,8 +203,10 @@ $1011 \rightarrow -5\$
 
 
 
-### Arithmetic Addition
+### Arithmetic Addition & Subtraction
 
 Signed Magnitude System에서는 일반적인 산술 연산과 동일하다.
 
 Signed Complement System에서는 오직 덧셈만 가능하다.
+
+A - B = A + (-B)이므로 B에 complement를 취해 A와 더해주면 덧셈만 사용했지만 뺄셈을 한 것과 같다. 
