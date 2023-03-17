@@ -25,9 +25,9 @@ r number system의 예로
 
 16 number system, r=16, hexadecimal 16진법이 있다
 
-$$ a_5*a_4*a_3*a_2*a_1*a_0*a_-1*a_-2*a_-3 \$$
+$ a_5*a_4*a_3*a_2*a_1*a_0*a_-1*a_-2*a_-3 
 
-$$ = a_5*r^5+a_4*r^4+a_3*r^3+a_2*r^2+a_1*r^1+a_0*r^0+a_-1*r^-1+a_-2*r^-2+a_-3*r^2-3 \$$
+ = a_5*r^5+a_4*r^4+a_3*r^3+a_2*r^2+a_1*r^1+a_0*r^0+a_-1*r^-1+a_-2*r^-2+a_-3*r^2-3 \$
 
 산술 연산은 decimal(10진법)과 같은 규칙으로 연산한다.
 
@@ -49,8 +49,8 @@ decimal의 소수는 나누는 대신 1만 남을 때까지 곱한다.
 
 ![image-20230315163359898](C:\Users\wymam\AppData\Roaming\Typora\typora-user-images\image-20230315163359898.png)
 
-따라서 $(41.06875)_1_0 \$는 2진수로 변환하면 $(101001.1011)_2$로 나타낼 수 있다.
-$(41.06875)__10 \$
+따라서 $(41.06875)_(10) \$는 2진수로 변환하면 $(101001.1011)_2$로 나타낼 수 있다.
+
 
 
 ### 8 number system & 16 number system
@@ -125,7 +125,7 @@ $M + (r^n-N) = (M - N) + r^n\$ (피감수 M, 감수 N)
 
 $M + ((r^n-1)-N) = (M - N) + (r^n-1)\$ (피감수 M, 감수 N)
 
- 1. $M >= N\$이면 결과는 M - N, end carry $r^n\$은 버린 후 1을 더해준다.(이를 end around carry라고 한다.)
+ 1. $M \ge N\$이면 결과는 M - N, end carry $r^n\$은 버린 후 1을 더해준다.(이를 end around carry라고 한다.)
 
  2. $M<N\$이면 결과는 $(r^n-1)-(N-M) 즉 (N-M)의 (r-1)'s complement를 취한 뒤 (-)를 붙인다.
 
@@ -200,3 +200,11 @@ $1011 \rightarrow -5\$
 이 표현법은 논리 연산에 유용할 뿐만아니라 Signed Magnitude Representation과 Sigend 1's Complement Representation과 다르게 0의 중복이 발생하지 않는다.
 
 즉 -8 ~ +7로 총 16개의 표현이 가능해 일반적으로 사용된다.
+
+
+
+### Arithmetic Addition
+
+Signed Magnitude System에서는 일반적인 산술 연산과 동일하다.
+
+Signed Complement System에서는 오직 덧셈만 가능하다.
