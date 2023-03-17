@@ -45,9 +45,9 @@ decimal의 소수는 나누는 대신 1만 남을 때까지 곱한다.
 
 2진수는 10진수로 나타낸 수에 2로 나누거나 곱하여 구할 수 있다.
 
-![image-20230315163339722](C:\Users\wymam\AppData\Roaming\Typora\typora-user-images\image-20230315163339722.png)
 
-![image-20230315163359898](C:\Users\wymam\AppData\Roaming\Typora\typora-user-images\image-20230315163359898.png)
+
+![image-20230317125818108](C:\blogmaker\images\2023-03-15-DigitalDesign0315\image-20230317125818108.png)![image-20230317125838697](C:\blogmaker\images\2023-03-15-DigitalDesign0315\image-20230317125838697.png)
 
 따라서 $(41.06875)_{10} \$는 2진수로 변환하면 $(101001.1011)_2$로 나타낼 수 있다.
 
@@ -201,7 +201,7 @@ $1011 \rightarrow -5\$
 
 즉 -8 ~ +7로 총 16개의 표현이 가능해 일반적으로 사용된다.
 
-
+![image-20230317125928529](C:\blogmaker\images\2023-03-15-DigitalDesign0315\image-20230317125928529.png)
 
 ### Arithmetic Addition & Subtraction
 
@@ -238,4 +238,44 @@ Binary 합이 0000 ~ 1001 사이라면 BCD의 자릿수는 올바르다.
 
 
 ### Other codes
+
+![image-20230317130006628](C:\blogmaker\images\2023-03-15-DigitalDesign0315\image-20230317130006628.png)
+
+2421과 Excess-3(3초과) code는 자기 보수화 코드로 0과 9, 1과 8, ... , 4와 5가 보수화되어 있다.
+
+8421(BCD), 2421은 가중 코드로 각 자리에 가중치를 곱한 값이다.
+
+2421의 경우 $6_{10}\$을 나타내는 $1100_2\$은 1x2 + 1x4 + 0x2 + 0x1로 계산하여 6을 나타낸다.
+
+반면 Excess-3 code의 경우 BCD(8421)에 3을 더한 비가중 코드이다.
+
+
+
+### Gray Code
+
+![image-20230317130026136](C:\blogmaker\images\2023-03-15-DigitalDesign0315\image-20230317130026136.png)
+
+Gray Code는 인접한 두 수의 XOR(Exclusive OR) 값으로 나타낸다.
+
+Binary Code 0 1 1 1을 예로 들어 설명하면 최상위 비트는 그대로 두고 왼쪽부터 인접한 두 수의 XOR값을 적는다.
+
+따라서 Gray Code 0 1 0 0 으로 변환된다.
+
+역으로 Gray Code 0 1 0 0을 Binary Code로 변환하려면 최상위 비트는 그대로 두고 그 비트와 Gray Code의 다음 수와 XOR 결과값을 적고 그 결과값과 Gray Code의 그 다음 비트와 또 XOR연산을 한다.
+
+따라서 Binary Code 0 1 1 1로 다시 변환된다.
+
+
+
+Gray Code의 장점은 Binary의 인접한 두 수는 오직 1bit만 차이가 난다.
+
+따라서 오류 발생시 다른 Code보다 더 작은 에러를 발생시킬 수 있다.
+
+
+
+### ASCII Character Code
+
+![image-20230317131039652](C:\blogmaker\images\2023-03-15-DigitalDesign0315\image-20230317131039652.png)
+
+ASCII Code는 94개의 인쇄문자와 34의 특수문자로 이루어져있다.
 
