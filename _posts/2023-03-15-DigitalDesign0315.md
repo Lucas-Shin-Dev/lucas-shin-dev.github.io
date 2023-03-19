@@ -117,7 +117,7 @@ $M + (r^n-N) = (M - N) + r^n\$ (피감수 M, 감수 N)
 
  1. $M \ge N\$이면 결과는 M - N, end carry $r^n\$은 버린다.
 
- 2. $M<N\$이면 결과는 $r^n-(N-M) 즉 (N-M)의 r's complement를 취한 뒤 (-)를 붙인다.
+ 2. $M<N\$이면 결과는 $r^n-(N-M)\$ 즉 $(N-M)\$의 r's complement를 취한 뒤 (-)를 붙인다.
 
      
 
@@ -127,7 +127,7 @@ $M + ((r^n-1)-N) = (M - N) + (r^n-1)\$ (피감수 M, 감수 N)
 
  1. $M \ge N\$이면 결과는 M - N, end carry $r^n\$은 버린 후 1을 더해준다.(이를 end around carry라고 한다.)
 
- 2. $M<N\$이면 결과는 $(r^n-1)-(N-M) 즉 (N-M)의 (r-1)'s complement를 취한 뒤 (-)를 붙인다.
+ 2. $M<N\$이면 결과는 $(r^n-1)-(N-M)\$ 즉 $(N-M)\$의 (r-1)'s complement를 취한 뒤 (-)를 붙인다.
 
     
 
@@ -157,8 +157,6 @@ unsigned binary number는 4bit system에서 0부터 15까지 표현이 가능하
 
 양수와 음수의 크기 비트는 동일하고 부호 비트만 0과 1로 양수와 음수를 나타낸다.
 
-ex) 
-
 $0101 \rightarrow 5\$
 
 $1101 \rightarrow -5\$
@@ -175,8 +173,6 @@ $1101 \rightarrow -5\$
 
 양수를 나타내는 비트에 1's complement를 취하여 음수를 나타낸다.
 
-ex)
-
 $0101 \rightarrow 5\$
 
 $1010 \rightarrow -5\$
@@ -190,8 +186,6 @@ $1010 \rightarrow -5\$
 ### Signed 2's Complement Representation
 
 양수를 나타내는 비트에 2's complement를 취하여 음수를 나타낸다.
-
-ex)
 
 $0101 \rightarrow 5\$
 
