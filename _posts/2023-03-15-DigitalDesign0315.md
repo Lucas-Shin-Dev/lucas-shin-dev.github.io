@@ -47,7 +47,7 @@ decimal의 소수는 나누는 대신 1만 남을 때까지 곱한다.
 
 
 
-![image-20230317125818108](C:\blogmaker\images\2023-03-15-DigitalDesign0315\image-20230317125818108.png)![image-20230317125838697](C:\blogmaker\images\2023-03-15-DigitalDesign0315\image-20230317125838697.png)
+![image-20230317125818108]({{site.url}}\images\2023-03-15-DigitalDesign0315\image-20230317125818108.png)![image-20230317125838697]({{site.url}}\images\2023-03-15-DigitalDesign0315\image-20230317125838697.png)
 
 따라서 $(41.06875)_{10} \$는 2진수로 변환하면 $(101001.1011)_2$로 나타낼 수 있다.
 
@@ -201,7 +201,7 @@ $1011 \rightarrow -5\$
 
 즉 -8 ~ +7로 총 16개의 표현이 가능해 일반적으로 사용된다.
 
-![image-20230317125928529](C:\blogmaker\images\2023-03-15-DigitalDesign0315\image-20230317125928529.png)
+![image-20230317125928529]({{site.url}}\images\2023-03-15-DigitalDesign0315\image-20230317125928529.png)
 
 ### Arithmetic Addition & Subtraction
 
@@ -239,7 +239,7 @@ Binary 합이 0000 ~ 1001 사이라면 BCD의 자릿수는 올바르다.
 
 ### Other codes
 
-![image-20230317130006628](C:\blogmaker\images\2023-03-15-DigitalDesign0315\image-20230317130006628.png)
+![image-20230317130006628]({{site.url}}\images\2023-03-15-DigitalDesign0315\image-20230317130006628.png)
 
 2421과 Excess-3(3초과) code는 자기 보수화 코드로 0과 9, 1과 8, ... , 4와 5가 보수화되어 있다.
 
@@ -253,7 +253,7 @@ Binary 합이 0000 ~ 1001 사이라면 BCD의 자릿수는 올바르다.
 
 ### Gray Code
 
-![image-20230317130026136](C:\blogmaker\images\2023-03-15-DigitalDesign0315\image-20230317130026136.png)
+![image-20230317130026136]({{site.url}}\images\2023-03-15-DigitalDesign0315\image-20230317130026136.png)
 
 Gray Code는 인접한 두 수의 XOR(Exclusive OR) 값으로 나타낸다.
 
@@ -275,7 +275,60 @@ Gray Code의 장점은 Binary의 인접한 두 수는 오직 1bit만 차이가 �
 
 ### ASCII Character Code
 
-![image-20230317131039652](C:\blogmaker\images\2023-03-15-DigitalDesign0315\image-20230317131039652.png)
+![image-20230317131039652]({{site.url}}\images\2023-03-15-DigitalDesign0315\image-20230317131039652.png)
 
-ASCII Code는 94개의 인쇄문자와 34의 특수문자로 이루어져있다.
+ASCII Code는 94개의 인쇄문자와 34의 제어문자로 이루어져있다.
 
+제어문자는 형식 지정자, 정보 구분 기호, 통신 제어 문자 3가지로 구성되어있다.
+
+대문자와 소문자는 6번째 비트의 차이만 있고 다른 비트는 모두 동일하다.
+
+
+
+### Error Detectiong Code
+
+Even Parity는 1의 개수를 짝수로, Odd Parity는 1의 개수를 홀수로 만들기 위해 코드의 가장 왼쪽 위치(약속에 따라 변경 가능)에 여분의 비트를 추가한다.
+
+ASCII A = 1000001일 때, Even Parity는 01000001로, Odd Parity는 11000001로 나타낸다.
+
+ASCII T = 1010100일 때, Even Parity는 01010100로, Odd Parity는 11010100로 나타낸다.
+
+Binary Logic으로 Parity Bit를 나타내려면 코드를 모두 XOR(Exclusive OR)연산을 하면 된다.
+
+1의 개수가 짝수일 때 XOR 결과는 0이고 홀수일 때 XOR 결과는 1이다.
+
+$P_{even}\$= $D_1\$ $\oplus\$ $D_2\$ $\oplus\$ $D_3\$ $\oplus\$ $D_4\$ $\oplus\$ $D_5\$ $\oplus\$ $D_6\$ $\oplus\$ $D_7\$
+
+$P_{odd}\$는 $P_{even}\$에 NOT 연산을 하면 된다.
+
+따라서 다음 그림과 같이 이용할 수 있다.
+
+$Y_{even}\$= $P_{even}\$ $\oplus\$ $D_1\$ $\oplus\$ $D_2\$ $\oplus\$ $D_3\$ $\oplus\$ $D_4\$ $\oplus\$ $D_5\$ $\oplus\$ $D_6\$ $\oplus\$ $D_7\$
+
+Y가 0이라면 오류 없음, 1이라면 오류 발생을 뜻한다.
+
+![image-20230319200737541]({{site.url}}\images\2023-03-15-DigitalDesign0315\image-20230319200737541.png)
+
+
+
+Parity bit는 임의의 홀수 개의 오류는 검출 가능하나 임의의 짝수 개의 오류는 검출이 불가능하다.
+
+또한 오류를 검출했더라도 어느 위치에서 오류가 발생했는지 알 수 없다.
+
+이를 보완한게 Parallel Parity이다.
+
+1차원 배열을 2차원 배열로 변경하므로써 어느 위치에서 오류가 발생했는지 알 수 있게 되었다. 
+
+![image-20230319201157763]({{site.url}}\images\2023-03-15-DigitalDesign0315\image-20230319201157763.png)
+
+
+
+## Binary Logic
+
+![image-20230319201905162]({{site.url}}\images\2023-03-15-DigitalDesign0315\image-20230319201905162.png)
+
+1. AND: 이 연산은 점（ • ） 또는 연산자 생략으로 표시된다. 예를 들어 x • y = z 또는 xy = z는 "x AND y는 그와 같다”로 읽는다. 논리 연산 AND는 x = 1이고 y = 1일 경우에 만 z = 1이며 그 밖의 경우에는 z = 0을 의미하는 것으로 해석된다. （x, y 및 z는 2진 변 수이고 1 또는 0과 같을 수 있으며 다른 것일 수는 없음을 기 억하라.） x • y 연산의 결과는 z이다.
+
+2. OR: 이 연산은 더하기 기호로 표시된다. 예를 들어 x + y = z는 "x OR y는 z와 같다” 로 읽는다. x = 1인 경우 또는 y = 1인 경우 또는 X = 1 및 y = 1인 경우 Z = 1임을 의 미한다. x = 0이고 y = 0이면 z = 0이다. 
+
+3. NOT: 이 연산은 프라임으로（때때로 오버 바로） 표시된다. 예를 들어 x' = z 는 “X의 부정은 z와 같다”로 읽는다. 그는 X가 아닌 것을 의미한다. 즉, X = 1이면 Z = 0이 지만 x = 0이면 z = 1이다. NOT 연산은 보수 연산이라고도 하는데, 1은 0으로 0은 1로 변경하기 때문이다. 즉, 1을 보수화한 결과는 0이며 그 반대의 경우도 성립한다.
