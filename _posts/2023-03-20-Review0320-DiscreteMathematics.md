@@ -31,7 +31,7 @@ use_math: true
 
 ​	$\or\$(논리합), $\and\$(논리곱), ~(부정)
 
-![image-20230320135923042](C:\blogmaker\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320135923042.png)
+![image-20230320135923042]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320135923042.png)
 
 논리 연산자를 포함하는 합성 명제에서 괄호가 없는 경우에는 다음과 같은 우선순위를 가진다.
 
@@ -43,7 +43,7 @@ $~\$ $>\$ $\and\$ $>\$ $\or\$ $>\$ $\rigtharrow\$ $>\$ $\leftrightarrow\$
 
 ~p 라고 표기하며 'not p 또는 p가 아니다' 라고 읽는다.
 
-![image-20230320140129303](C:\blogmaker\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320140129303.png)
+![image-20230320140129303]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320140129303.png)
 
 
 
@@ -53,7 +53,7 @@ $~\$ $>\$ $\and\$ $>\$ $\or\$ $>\$ $\rigtharrow\$ $>\$ $\leftrightarrow\$
 
 p $\and\$ q 라고 표기하며 'p and q 또는 p 그리고 q'라고 읽는다.
 
-![image-20230320140326640](C:\blogmaker\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320140326640.png)
+![image-20230320140326640]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320140326640.png)
 
 
 
@@ -63,7 +63,7 @@ p $\and\$ q 라고 표기하며 'p and q 또는 p 그리고 q'라고 읽는다.
 
 p $\or\$ q 라고 표기하며 'p or q 나 p 또는 q'라고 읽는다.
 
-![image-20230320140459446](C:\blogmaker\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320140459446.png)
+![image-20230320140459446]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320140459446.png)
 
 
 
@@ -73,7 +73,7 @@ p $\or\$ q 라고 표기하며 'p or q 나 p 또는 q'라고 읽는다.
 
 p $\oplus\$ q 라고 표기하며 'Exclusive OR 또는 XOR'라고 읽는다.
 
-![image-20230320140719069](C:\blogmaker\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320140719069.png)
+![image-20230320140719069]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320140719069.png)
 
 
 
@@ -81,7 +81,7 @@ p $\oplus\$ q 라고 표기하며 'Exclusive OR 또는 XOR'라고 읽는다.
 
 임의의 두 명제 p, q의 조건 연산자는 p $\rigihtarrow\$ q 로 표기하며 'p이면 q이다'라고 읽는다.
 
-![image-20230320140938250](C:\blogmaker\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320140938250.png)
+![image-20230320140938250]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320140938250.png)
 
 뿐만 아니라, 똑같은 진리값을 가지는 다양한 표현으로 나타내어진다.
 
@@ -101,7 +101,7 @@ p $\oplus\$ q 라고 표기하며 'Exclusive OR 또는 XOR'라고 읽는다.
 
 p, q 모두 참 또는 거짓일 때 참의 진리값을 가지고 그 외에는 거짓의 값을 갖는다.
 
-![image-20230320141421996](C:\blogmaker\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320141421996.png)
+![image-20230320141421996]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320141421996.png)
 
 쌍방 조건도 마찬가지로 같은 의미를 가진 다른 표현으로 나타내어진다.
 
@@ -113,7 +113,7 @@ p, q 모두 참 또는 거짓일 때 참의 진리값을 가지고 그 외에는
 
 ### 명제의 상호 관계
 
-![image-20230320141944978](C:\blogmaker\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320141944978.png)
+![image-20230320141944978]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320141944978.png)
 
 명제 p $\rightarrow\$ q에 대하여
 
@@ -123,7 +123,7 @@ p $\rightarrow\$ q 를 **역(converse)**
 
 ~q $\rightarrow\$ ~p 를 **대우(contrapositive)**라고 한다.
 
-![image-20230320142152382](C:\blogmaker\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320142152382.png)
+![image-20230320142152382]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320142152382.png)
 
 위의 진리표에서 나타난 것과 같이 다음 관계가 성립한다.
 
@@ -153,7 +153,7 @@ p $\equiv\$q, p $\Leftrightarrow\$ q 라고 표기한다.
 
 두 명제의 논리값이 서로 같으므로 하나의 명제가 다른 명제를 대신 할 수 있다.
 
-![image-20230320142932712](C:\blogmaker\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320142932712.png)
+![image-20230320142932712]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320142932712.png)
 
 
 
@@ -169,7 +169,7 @@ p $\equiv\$q, p $\Leftrightarrow\$ q 라고 표기한다.
 
 이 때 전제를 $p_1\$, $p_2\$, ... , $p_n\$이라 하고 결론을 q라 할 때 수학적 식으로 표시하면 $p_1\$, $p_2\$, ... , $p_n\$ $\vdash\$ q라고 표시한다.
 
-![image-20230320143411727](C:\blogmaker\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320143411727.png)
+![image-20230320143411727]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320143411727.png)
 
 
 
