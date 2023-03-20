@@ -29,13 +29,13 @@ use_math: true
 
 ​	단순 명제들을 연결시켜 주는 역할을 한다.
 
-​	$\or \$(논리합), $\and \$(논리곱), ~(부정)
+​	$\vee \$(논리합), $\wedge \$(논리곱), ~(부정)
 
 ![image-20230320135923042]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320135923042.png)
 
 논리 연산자를 포함하는 합성 명제에서 괄호가 없는 경우에는 다음과 같은 우선순위를 가진다.
 
-~ $>\$ $\and \$ $>\$ $\or \$ $>\$ $\rigtharrow \$ $>\$ $\leftrightarrow\$
+~ $>\$ $\wedge \$ $>\$ $\vee \$ $>\$ $\rightarrow \$ $>\$ $\leftrightarrow\$
 
 ### NOT (부정, negation)
 
@@ -51,7 +51,7 @@ use_math: true
 
 임의의 두 명제 p, q가 AND로 연결된다.
 
-p $\and \$ q 라고 표기하며 'p and q 또는 p 그리고 q'라고 읽는다.
+p $\wedge \$ q 라고 표기하며 'p and q 또는 p 그리고 q'라고 읽는다.
 
 ![image-20230320140326640]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320140326640.png)
 
@@ -61,7 +61,7 @@ p $\and \$ q 라고 표기하며 'p and q 또는 p 그리고 q'라고 읽는다.
 
 임의의 두 명제 p, q가 OR로 연결된다.
 
-p $\or \$ q 라고 표기하며 'p or q 나 p 또는 q'라고 읽는다.
+p $\vee \$ q 라고 표기하며 'p or q 나 p 또는 q'라고 읽는다.
 
 ![image-20230320140459446]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320140459446.png)
 
@@ -79,7 +79,7 @@ p $\oplus\$ q 라고 표기하며 'Exclusive OR 또는 XOR'라고 읽는다.
 
 ### 조건 (함축, Implication)
 
-임의의 두 명제 p, q의 조건 연산자는 p $\rigihtarrow\$ q 로 표기하며 'p이면 q이다'라고 읽는다.
+임의의 두 명제 p, q의 조건 연산자는 p $\rightarrow\$ q 로 표기하며 'p이면 q이다'라고 읽는다.
 
 ![image-20230320140938250]({{site.url}}\images\2023-03-20-Review0320-DiscreteMathematics\image-20230320140938250.png)
 
