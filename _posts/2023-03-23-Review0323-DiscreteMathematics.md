@@ -23,9 +23,9 @@ use_math: true
 
 전체 집합(universal set): $U\$
 
-공집합(empty set): $\empty\$, $\{ \}\$
+공집합(empty set): $\empty\$, { }
 
-정수 집합: $\Z\$
+정수 집합: $Z\$
 
 자연수의 집합: $N\$
 
@@ -73,7 +73,7 @@ $S\$ = {1, 2, 3, 4, 5}
 
 집합의 원소들이 가지고 있는 특저앟ㄴ 성질을 기술
 
-$S\$ = {$x\$|$p(x)\$}
+$S\$ = {$x\$$\left|\$$p(x)\$}
 
 여기서 x는 변수이고 $p(x)\$는 원소들이 가지고 있는 성질이다.
 
@@ -83,7 +83,7 @@ $S\$ = {$x\$|$p(x)\$}
 
 집합 내에 있는 서로 다른 원소들의 개수
 
-집합의 원소수라하고 |$S\$|로 표기한다.
+집합의 원소수라하고 $\left| S \right|\$로 표기한다.
 
 
 
@@ -117,7 +117,7 @@ ex) 자연수의 집합이 가산적으로 무한함을 보여라.
 
 집합 A 또는 집합 B에 속하는 모든 원소의 집합
 
-A $\cup B = {$x\$ | $x\$ $\in\$ A $\or\$  $x\$ $\in\$ B}
+A $\cup B = {$x\$ $\left|\$ $x\$ $\in\$ A $\or\$  $x\$ $\in\$ B}
 
 
 
@@ -125,7 +125,7 @@ A $\cup B = {$x\$ | $x\$ $\in\$ A $\or\$  $x\$ $\in\$ B}
 
 집합 A와 집합 B에 속하는 모든 원소의 집합
 
-A $\cap B = {$x\$ | $x\$ $\in\$ A $\and\$  $x\$ $\in\$ B}
+A $\cap B = {$x\$ $\left|\$ $x\$ $\in\$ A $\and\$  $x\$ $\in\$ B}
 
 
 
@@ -139,7 +139,7 @@ A $\cap B = {$x\$ | $x\$ $\in\$ A $\and\$  $x\$ $\in\$ B}
 
 집합 A에 속하고 집합 B에 속하지 않은 모든 운소들의 집합
 
-A - B = {$x\$| $x\$ $\in\$ A $\and\$ $x\$ $notin\$ B}
+A - B = {$x\$$\left|\$ $x\$ $\in\$ A $\and\$ $x\$ $notin\$ B}
 
 
 
@@ -161,17 +161,17 @@ a $\ne\$ b 이면 (a, b) $\ne\$ (b, a) 이고
 
 ### 집합 연산의 카디날리티
 
-집합의 원소의 개수는 |$S\$|로 표기한다.
+집합의 원소의 개수는 $\left| A \right|\$로 표기한다.
 
-​	a. |A $\cup\$ B| = |A| + |B| - |A $\cap\$ B|
+​	a. $\left|A $\cup\$ B \right|$ = $\left| A \right|\$ + \left| B \right| - $\left|A $\cap\$ B\right|\$
 
-​	b. |A $\cap\$ B| = |A| + |B| - |A $\cup\$ B| 
+​	b. $\left|A $\cap\$ B\right|\$ = $\left| A \right|\$ + $\left| B \right|\$ - $\left|A $\cup\$ B\right|\$ 
 
-​	c. |A $\cup\$ B $\cup\$ C| = |A| + |B| + |C| - |A $\cap\$ B| - |B $\cap\$ C| - |A $\cap\$ C| + |A $\cap\$ B $\cap\$ C|
+​	c. $\left|A $\cup\$ B $\cup\$ C\right|\$ = |A| + |B| + |C| - $\left|A $\cap\$ B\right|\$ - $\left|B $\cap\$ C\right|\$ - $\left|A $\cap\$ C\right|\$ +  $\left|A $\cap\$ B $\cap\$ C\right|\$
 
-​	d. |A - B| = |A| - |A $\cap\$ B|
+​	d. $\left|A - B\right|\$ = $\left|A\right|\$ - $\left|A $\cap\$ B\right|\$
 
-​	e. |A X B| = |A| $\cdot\$ |B|
+​	e. $\left|A X B\right|\$ = $\left|A\right|\$ $\cdot\$ $\left|B\right|\$
 
 
 
@@ -183,7 +183,7 @@ a $\ne\$ b 이면 (a, b) $\ne\$ (b, a) 이고
 
 쌍대의 원리를 이용하여 드 모르간 법칙 중 첫번째 식을 사용하면
 
-(A$\cup\$B)^$\prime\$ = $A\$$\prime\$$\cap\$$B\$$\prime\$ $\leftrightarrow\$ (A$\cap\$B)^$\prime\$ = $A\$$\prime\$$\cup\$$B\$$\prime\$
+$(A\cupB)^\prime\$ = $A^\prime\$$\cap\$$B^\prime\$ $\leftrightarrow\$ $(A\capB)^\prime\$ = $A^\prime\$$\cup\$$B^\prime\$
 
 
 
@@ -195,7 +195,7 @@ a $\ne\$ b 이면 (a, b) $\ne\$ (b, a) 이고
 
 ​	집합 A의 부분 집합의 개수는 $2^n\$개
 
-​	카다닐리티로 표현하면 $2^{|A|}\$개이다.
+​	카다닐리티로 표현하면 $2^{\left|A\right|}\$개이다.
 
 
 
@@ -209,15 +209,17 @@ a $\ne\$ b 이면 (a, b) $\ne\$ (b, a) 이고
 
 멱집합의 주의점
 
-	1. 멱집합을 구한 다음에는 멱집합의 원소의 개수가 $2^{|A|}\$개가 되는지 확인한다.
-	1. 멱집합의 원소는 모두 지2ㅂ합이라는 점에 유의해야 한다.
-	1. 원래 집합 A의 원소 중 집합인 원소가 있을 때에는 그 집합 자체가 하나의 원소이므로, 멱집합에서는 추가적인 집합 표기가 필요하다.
+1. 멱집합을 구한 다음에는 멱집합의 원소의 개수가 $2^{|A|}\$개가 되는지 확인한다.
 
+2. 멱집합의 원소는 모두 지2ㅂ합이라는 점에 유의해야 한다.
 
+3. 원래 집합 A의 원소 중 집합인 원소가 있을 때에는 그 집합 자체가 하나의 원소이므로, 멱집합에서는 추가적인 집합 표기가 필요하다.
+
+   
 
 집합 A에 대하여 $P(A)\$의 원소들을 나타내기 위해 $A_1\$, $A_2\$, ... , $A_n\$으로 표기한다.
 
-이들의 합집합을 $\underset{i=1}\overset{n}{\bigcup}\$$A_i\$, 교집합을 $\underset{i=1}\overset{n}{\bigcap}\$$A_i\$로 표기한다.
+이들의 합집합을 $\bigcup\$$A_i\$, 교집합을 $\bigcap\$$A_i\$로 표기한다.
 
 
 
@@ -227,9 +229,13 @@ a $\ne\$ b 이면 (a, b) $\ne\$ (b, a) 이고
 
 공집합이 아닌 임의의 집합 $S\$의 분할(partition) $\Pi\$는 다음 조건을 만족시켜야 한다.
 
-	1. $i\$ = 1, ..., $k\$에 대하여 $A_i\$는 공집합이 아닌 집합 $S\$의 부분 집합이다.
-	1. $S\$ = $A_1\$$\cup\$$A_2\$$\cup\$...$\cup\$$A_n\$
-	1. $A_i\$들 사이에서는 서로소이다. 즉, $i\$$\ne\$$j\$이면, $A_i\$$\cap\$$A_j\$ = $\0\$이다.
+1. $i\$ = 1, ..., $k\$에 대하여 $A_i\$는 공집합이 아닌 집합 $S\$의 부분 집합이다.
+
+2. $S\$ = $A_1\$$\cup\$$A_2\$$\cup\$...$\cup\$$A_n\$
+
+3. $A_i\$들 사이에서는 서로소이다. 즉, $i\$$\ne\$$j\$이면, $A_i\$$\cap\$$A_j\$ = $\0\$이다.
+
+   
 
 ![image-20230323200335965]({{site.url}}\images\2023-03-23-Review0323-DiscreteMathematics\image-20230323200335965.png)
 
