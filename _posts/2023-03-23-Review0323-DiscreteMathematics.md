@@ -83,7 +83,7 @@ $S\$ = {$x\$ $\mid\$ p(x)}
 
 집합 내에 있는 서로 다른 원소들의 개수
 
-집합의 원소수라하고 $\left\vert S \right\vert\$로 표기한다.
+집합의 원소수라고 하고 $\left\vert S \right\vert\$로 표기한다.
 
 
 
@@ -125,7 +125,7 @@ A $\cup\$ B = {$x\$ $\mid\$ $x\$ $\in\$ A $\lor\$  $x\$ $\in\$ B}
 
 집합 A와 집합 B에 속하는 모든 원소의 집합
 
-A $\cap\$ B = {$x\$ $\mid\$ $x \in A\$ $\land  x \in B\$}
+A $\cap\$ B = {$x\$ $\mid\$ $x \in A\$ $\land\$ $x \in B\$}
 
 
 
@@ -139,7 +139,7 @@ A $\cap\$ B = {$x\$ $\mid\$ $x \in A\$ $\land  x \in B\$}
 
 집합 A에 속하고 집합 B에 속하지 않은 모든 운소들의 집합
 
-A - B = {$x\$ $\mid\$ $x\$ $\in\$ A $\land\$ $x\$ $\not in\$ B}
+A - B = {$x\$ $\mid\$ $x\$ $\in\$ A $\land\$ $x\$ $\not\in\$ B}
 
 
 
@@ -163,17 +163,17 @@ a $\ne\$ b 이면 (a, b) $\ne\$ (b, a) 이고
 
 집합의 원소의 개수는 $\left\vert A \right\vert\$로 표기한다.
 
-​	a. $\left\vertA \cup B \right\vert\$ = $\left\vert A \right\vert\$ + \left\vert B \right\vert - $\left\vert A $\cap\$ B\right\vert\$
+​	a. $\mid\$ $A\$ $\cup\$ $B\$ $\mid\$ = $\left\vert A \right\vert\$ + $\left\vert B \right\vert\$ - $\mid\$ $A\$ $\cap\$ $B\$ $\mid\$
 
-​	b. $\left\vert A $\cap\$ B\right\vert\$ = $\left\vert A \right\vert\$ + $\left\vert B \right\vert\$ - $\left\vert A $\cup\$ B\right\vert\$ 
+​	b. $\mid\$ $A\$ $\cap\$ $B\$\mid\$ = $\left\vert A \right\vert\$ + $\left\vert B \right\vert\$ - $\mid\$ $A\$ $\cup\$ $B\$ $\mid\$ 
 
-​	c. $\left\vert A $\cup\$ B $\cup\$ C \right\vert\$ = $\left\vert A \right\vert + \left\vert B \right\vert + \left\vert C \right\vert - $\left\vert A $\cap\$ B \right\vert\$ - $\left\vert B $\cap\$  C \right\vert\$ - $\left\vert A $\cap\$ C \right\vert\$ +  $\left\vert A $\cap\$ B $\cap\$ C \right\vert\$
+​	c. $\mid\$ $A\$ $\cup\$ $B\$ $\cup\$ $C\$ $\mid\$ = $\left\vert A \right\vert + \left\vert B \right\vert + \left\vert C \right\vert - $\mid\$ $A\$ $\cap\$ $B\$ $\mid\$ - $\mid\$ $B\$ $\cap\$ $C\$ $\mid\$ - $\mid\$ $A\$ $\cap\$ $C\$ $\mid\$ +  $\mid\$ $A\$ $\cap\$ $B\$ $\cap\$ $C\$ $\mid\$
 
-​	d. $\left\vert A - B \right\vert\$ = $\left\vert A \right\vert\$ - $\left\vert A $\cap\$ B \right\vert\$
+​	d. $\left\vert A - B \right\vert\$ = $\left\vert A \right\vert\$ - $\mid\$ $A\$ $\cap\$ $B\$ $\mid\$
 
-​	e. $\left\vert A X B \right\vert\$ = $\left\vert A \right\vert\$ $\cdot\$ $\left\vert B \right\vert\$
+​	e. $\left\vert A x B \right\vert\$ = $\left\vert A \right\vert\$ $\cdot\$ $\left\vert B \right\vert\$
 
-\left\vert A \right\vert
+
 
 ### 집합의 대수 법칙
 
