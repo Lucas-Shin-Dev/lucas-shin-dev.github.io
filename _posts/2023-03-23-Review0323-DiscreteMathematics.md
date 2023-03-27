@@ -117,7 +117,7 @@ ex) 자연수의 집합이 가산적으로 무한함을 보여라.
 
 집합 A 또는 집합 B에 속하는 모든 원소의 집합
 
-A $\cup\$ B = {$x\$ $\mid\$ $x\$ $\in\$ A $\or\$  $x\$ $\in\$ B}
+A $\cup\$ B = {$x\$ $\mid\$ $x\$ $\in\$ A $\lor\$  $x\$ $\in\$ B}
 
 
 
@@ -125,7 +125,7 @@ A $\cup\$ B = {$x\$ $\mid\$ $x\$ $\in\$ A $\or\$  $x\$ $\in\$ B}
 
 집합 A와 집합 B에 속하는 모든 원소의 집합
 
-A $\cap\$ B = {$x\$ $\mid\$ $x \in A\$ $\and  x \in B\$}
+A $\cap\$ B = {$x\$ $\mid\$ $x \in A\$ $\land  x \in B\$}
 
 
 
@@ -139,13 +139,13 @@ A $\cap\$ B = {$x\$ $\mid\$ $x \in A\$ $\and  x \in B\$}
 
 집합 A에 속하고 집합 B에 속하지 않은 모든 운소들의 집합
 
-A - B = {$x\$$\mid\$ $x\$ $\in\$ A $\and\$ $x\$ $notin\$ B}
+A - B = {$x\$ $\mid\$ $x\$ $\in\$ A $\land\$ $x\$ $\not in\$ B}
 
 
 
 ### 대칭 차집합 Synmetric Difference A $\oplus\$ B
 
-A $\cup\$ B의 원소 중에서 $A \and B\$에 속하지 않는 모든 원소들의 집합
+A $\cup\$ B의 원소 중에서 $A \land B\$에 속하지 않는 모든 원소들의 집합
 
 
 
@@ -161,19 +161,19 @@ a $\ne\$ b 이면 (a, b) $\ne\$ (b, a) 이고
 
 ### 집합 연산의 카디날리티
 
-집합의 원소의 개수는 $\left| A \right|\$로 표기한다.
+집합의 원소의 개수는 $\left\vert A \right\vert\$로 표기한다.
 
-​	a. $\left|A \cup B \right|$ = $\left| A \right|\$ + \left| B \right| - $\left|A $\cap\$ B\right|\$
+​	a. $\left\vertA \cup B \right\vert\$ = $\left\vert A \right\vert\$ + \left\vert B \right\vert - $\left\vert A $\cap\$ B\right\vert\$
 
-​	b. $\left|A $\cap\$ B\right|\$ = $\left| A \right|\$ + $\left| B \right|\$ - $\left|A $\cup\$ B\right|\$ 
+​	b. $\left\vert A $\cap\$ B\right\vert\$ = $\left\vert A \right\vert\$ + $\left\vert B \right\vert\$ - $\left\vert A $\cup\$ B\right\vert\$ 
 
-​	c. $\left|A $\cup\$ B $\cup\$ C\right|\$ = |A| + |B| + |C| - $\left|A $\cap\$ B\right|\$ - $\left|B $\cap\$ C\right|\$ - $\left|A $\cap\$ C\right|\$ +  $\left|A $\cap\$ B $\cap\$ C\right|\$
+​	c. $\left\vert A $\cup\$ B $\cup\$ C \right\vert\$ = $\left\vert A \right\vert + \left\vert B \right\vert + \left\vert C \right\vert - $\left\vert A $\cap\$ B \right\vert\$ - $\left\vert B $\cap\$  C \right\vert\$ - $\left\vert A $\cap\$ C \right\vert\$ +  $\left\vert A $\cap\$ B $\cap\$ C \right\vert\$
 
-​	d. $\left|A - B\right|\$ = $\left|A\right|\$ - $\left|A $\cap\$ B\right|\$
+​	d. $\left\vert A - B \right\vert\$ = $\left\vert A \right\vert\$ - $\left\vert A $\cap\$ B \right\vert\$
 
-​	e. $\left|A X B\right|\$ = $\left|A\right|\$ $\cdot\$ $\left|B\right|\$
+​	e. $\left\vert A X B \right\vert\$ = $\left\vert A \right\vert\$ $\cdot\$ $\left\vert B \right\vert\$
 
-
+\left\vert A \right\vert
 
 ### 집합의 대수 법칙
 
@@ -195,7 +195,7 @@ $(A \cup B)^\prime\$ = $A^\prime\$$\cap\$$B^\prime\$ $\leftrightarrow\$ $(A \cap
 
 ​	집합 A의 부분 집합의 개수는 $2^n\$개
 
-​	카다닐리티로 표현하면 $2^{$\left\vert A \right\vert\$}\$개이다.
+​	카다닐리티로 표현하면 $2^{\left\vert A \right\vert}\$개이다.
 
 
 
@@ -209,7 +209,7 @@ $(A \cup B)^\prime\$ = $A^\prime\$$\cap\$$B^\prime\$ $\leftrightarrow\$ $(A \cap
 
 멱집합의 주의점
 
-1. 멱집합을 구한 다음에는 멱집합의 원소의 개수가 $2^{$\left\vert A \right\vert\$}\$개가 되는지 확인한다.
+1. 멱집합을 구한 다음에는 멱집합의 원소의 개수가 $2^{\left\vert A \right\vert}\$개가 되는지 확인한다.
 
 2. 멱집합의 원소는 모두 지2ㅂ합이라는 점에 유의해야 한다.
 
