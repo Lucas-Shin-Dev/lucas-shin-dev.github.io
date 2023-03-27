@@ -145,7 +145,7 @@ A - B = {$x\$ $\mid\$ $x\$ $\in\$ A $\land\$ $x\$ $\not\in\$ B}
 
 ### 대칭 차집합 Synmetric Difference A $\oplus\$ B
 
-A $\cup\$ B의 원소 중에서 $A \land B\$에 속하지 않는 모든 원소들의 집합
+A $\cup\$ B의 원소 중에서 $A \cap B\$에 속하지 않는 모든 원소들의 집합
 
 
 
