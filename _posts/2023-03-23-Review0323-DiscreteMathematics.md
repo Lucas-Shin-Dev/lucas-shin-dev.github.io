@@ -165,9 +165,9 @@ a $\ne\$ b 이면 (a, b) $\ne\$ (b, a) 이고
 
 ​	a. $\mid\$ $A\$ $\cup\$ $B\$ $\mid\$ = $\left\vert A \right\vert\$ + $\left\vert B \right\vert\$ - $\mid\$ $A\$ $\cap\$ $B\$ $\mid\$
 
-​	b. $\mid\$ $A\$ $\cap\$ $B\$\mid\$ = $\left\vert A \right\vert\$ + $\left\vert B \right\vert\$ - $\mid\$ $A\$ $\cup\$ $B\$ $\mid\$ 
+​	b. $\mid\$ $A\$ $\cap\$ $B\$ $\mid\$ = $\left\vert A \right\vert\$ + $\left\vert B \right\vert\$ - $\mid\$ $A\$ $\cup\$ $B\$ $\mid\$ 
 
-​	c. $\mid\$ $A\$ $\cup\$ $B\$ $\cup\$ $C\$ $\mid\$ = $\left\vert A \right\vert + \left\vert B \right\vert + \left\vert C \right\vert - $\mid\$ $A\$ $\cap\$ $B\$ $\mid\$ - $\mid\$ $B\$ $\cap\$ $C\$ $\mid\$ - $\mid\$ $A\$ $\cap\$ $C\$ $\mid\$ +  $\mid\$ $A\$ $\cap\$ $B\$ $\cap\$ $C\$ $\mid\$
+​	c. $\mid\$ $A\$ $\cup\$ $B\$ $\cup\$ $C\$ $\mid\$ = $\left\vert A \right\vert + \left\vert B \right\vert + \left\vert C \right\vert\$ - $\mid\$ $A\$ $\cap\$ $B\$ $\mid\$ - $\mid\$ $B\$ $\cap\$ $C\$ $\mid\$ - $\mid\$ $A\$ $\cap\$ $C\$ $\mid\$ +  $\mid\$ $A\$ $\cap\$ $B\$ $\cap\$ $C\$ $\mid\$
 
 ​	d. $\left\vert A - B \right\vert\$ = $\left\vert A \right\vert\$ - $\mid\$ $A\$ $\cap\$ $B\$ $\mid\$
 
