@@ -73,7 +73,7 @@ $S\$ = {1, 2, 3, 4, 5}
 
 집합의 원소들이 가지고 있는 특정한 성질을 기술
 
-$S = {x \midp(x)}\$
+$S\$ = {$x\$ $\mid\$ p(x)}
 
 여기서 x는 변수이고 $p(x)\$는 원소들이 가지고 있는 성질이다.
 
@@ -83,7 +83,7 @@ $S = {x \midp(x)}\$
 
 집합 내에 있는 서로 다른 원소들의 개수
 
-집합의 원소수라하고 \left\vert S \right\vert로 표기한다.
+집합의 원소수라하고 $\left\vert S \right\vert\$로 표기한다.
 
 
 
@@ -125,7 +125,7 @@ A $\cup\$ B = {$x\$ || $x\$ $\in\$ A $\or\$  $x\$ $\in\$ B}
 
 집합 A와 집합 B에 속하는 모든 원소의 집합
 
-A $\cap\$ B = {$x\$ $\left|\$ $x\$ $\in\$ A $\and\$  $x\$ $\in\$ B}
+A $\cap\$ B = {$x\$ $\left|\$ $x \in A\$ $\and  x \in B\$}
 
 
 
@@ -145,7 +145,7 @@ A - B = {$x\$$\left|\$ $x\$ $\in\$ A $\and\$ $x\$ $notin\$ B}
 
 ### 대칭 차집합 Synmetric Difference A $\oplus\$ B
 
-A $\cup\$ B의 원소 중에서 A $\and\$ B에 속하지 않는 모든 원소들의 집합
+A $\cup\$ B의 원소 중에서 $A \and B\$에 속하지 않는 모든 원소들의 집합
 
 
 
@@ -183,7 +183,7 @@ a $\ne\$ b 이면 (a, b) $\ne\$ (b, a) 이고
 
 쌍대의 원리를 이용하여 드 모르간 법칙 중 첫번째 식을 사용하면
 
-$(A\cupB)^\prime\$ = $A^\prime\$$\cap\$$B^\prime\$ $\leftrightarrow\$ $(A\capB)^\prime\$ = $A^\prime\$$\cup\$$B^\prime\$
+$($A\$$\cup\$$B\$)^\prime\$ = $A^\prime\$$\cap\$$B^\prime\$ $\leftrightarrow\$ $($A\$$\cap\$$B\$)^\prime\$ = $A^\prime\$$\cup\$$B^\prime\$
 
 
 
@@ -233,7 +233,7 @@ $(A\cupB)^\prime\$ = $A^\prime\$$\cap\$$B^\prime\$ $\leftrightarrow\$ $(A\capB)^
 
 2. $S\$ = $A_1\$$\cup\$$A_2\$$\cup\$...$\cup\$$A_n\$
 
-3. $A_i\$들 사이에서는 서로소이다. 즉, $i\$$\ne\$$j\$이면, $A_i\$$\cap\$$A_j\$ = $\0\$이다.
+3. $A_i\$들 사이에서는 서로소이다. 즉, $i\$$\ne\$$j\$이면, $A_i\$$\cap\$$A_j\$ = $\varnothing\$이다.
 
    
 
