@@ -117,7 +117,7 @@ ex) 자연수의 집합이 가산적으로 무한함을 보여라.
 
 집합 A 또는 집합 B에 속하는 모든 원소의 집합
 
-A $\cup\$ B = {$x\$ || $x\$ $\in\$ A $\or\$  $x\$ $\in\$ B}
+A $\cup\$ B = {$x\$ $\mid\$ $x\$ $\in\$ A $\or\$  $x\$ $\in\$ B}
 
 
 
@@ -125,7 +125,7 @@ A $\cup\$ B = {$x\$ || $x\$ $\in\$ A $\or\$  $x\$ $\in\$ B}
 
 집합 A와 집합 B에 속하는 모든 원소의 집합
 
-A $\cap\$ B = {$x\$ $\left|\$ $x \in A\$ $\and  x \in B\$}
+A $\cap\$ B = {$x\$ $\mid\$ $x \in A\$ $\and  x \in B\$}
 
 
 
@@ -139,7 +139,7 @@ A $\cap\$ B = {$x\$ $\left|\$ $x \in A\$ $\and  x \in B\$}
 
 집합 A에 속하고 집합 B에 속하지 않은 모든 운소들의 집합
 
-A - B = {$x\$$\left|\$ $x\$ $\in\$ A $\and\$ $x\$ $notin\$ B}
+A - B = {$x\$$\mid\$ $x\$ $\in\$ A $\and\$ $x\$ $notin\$ B}
 
 
 
@@ -183,7 +183,7 @@ a $\ne\$ b 이면 (a, b) $\ne\$ (b, a) 이고
 
 쌍대의 원리를 이용하여 드 모르간 법칙 중 첫번째 식을 사용하면
 
-$($A\$$\cup\$$B\$)^\prime\$ = $A^\prime\$$\cap\$$B^\prime\$ $\leftrightarrow\$ $($A\$$\cap\$$B\$)^\prime\$ = $A^\prime\$$\cup\$$B^\prime\$
+$(A \cup B)^\prime\$ = $A^\prime\$$\cap\$$B^\prime\$ $\leftrightarrow\$ $(A \cap B)^\prime\$ = $A^\prime\$$\cup\$$B^\prime\$
 
 
 
@@ -195,7 +195,7 @@ $($A\$$\cup\$$B\$)^\prime\$ = $A^\prime\$$\cap\$$B^\prime\$ $\leftrightarrow\$ $
 
 ​	집합 A의 부분 집합의 개수는 $2^n\$개
 
-​	카다닐리티로 표현하면 $2^{\left|A\right|}\$개이다.
+​	카다닐리티로 표현하면 $2^{$\left\vert A \right\vert\$}\$개이다.
 
 
 
@@ -209,7 +209,7 @@ $($A\$$\cup\$$B\$)^\prime\$ = $A^\prime\$$\cap\$$B^\prime\$ $\leftrightarrow\$ $
 
 멱집합의 주의점
 
-1. 멱집합을 구한 다음에는 멱집합의 원소의 개수가 $2^{|A|}\$개가 되는지 확인한다.
+1. 멱집합을 구한 다음에는 멱집합의 원소의 개수가 $2^{$\left\vert A \right\vert\$}\$개가 되는지 확인한다.
 
 2. 멱집합의 원소는 모두 지2ㅂ합이라는 점에 유의해야 한다.
 
