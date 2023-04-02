@@ -18,7 +18,7 @@
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 
-  @include breakpoint($x-large) {
+  @include breakpoint(12800px) { //$x-large
     max-width: $x-large;
   }
 
@@ -28,7 +28,7 @@
     font-size: $type-size-6;
 
     @include breakpoint($large) {
-      float: left;
+      float: right;
       width: calc(100% - #{$right-sidebar-width-narrow}); 
     }
 
