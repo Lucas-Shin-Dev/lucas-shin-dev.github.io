@@ -230,7 +230,7 @@ int avail;
 
 $A\$ = $8x^3\$ + $7x\$ + 1,		$B\$ = $10x^3\$ + $3x^2\$ + 1
 
-![image-20230402143412088](C:\blogmaker\images\2023-04-02-Review0402-DataStructure\image-20230402143412088.png)
+![image-20230402143412088]({{site.url}}\images\2023-04-02-Review0402-DataStructure\image-20230402143412088.png)
 
 이러한 방법은 terms 안에 항의 총 개수가 MAX_TERMS을 넘지만 않으면 많은 다항식을 저장할 수 있다.
 
@@ -463,7 +463,7 @@ p = $a;
 *p = 200;
 ```
 
-![image-20230402151231392](C:\blogmaker\images\2023-04-02-Review0402-DataStructure\image-20230402151231392.png)
+![image-20230402151231392]({{site.url}}\images\2023-04-02-Review0402-DataStructure\image-20230402151231392.png)
 
 
 
