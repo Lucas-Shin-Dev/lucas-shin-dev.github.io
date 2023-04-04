@@ -20,24 +20,33 @@ use_math: true
 1. Closure(닫힘): 
 
    A set S is closed with respect to a binary operator 
+   if, for every pair of elements of S, the binary operator specifies a rule for obtaining a unique elements of S
 
-​		if, for every pair of elements of S, the binary operator specifies a rule for obtaining a unique elements of S
+
 
 2. Associative law(결합 법칙):
 
    (x * y) * z = x * (y * z) for all x, y, z $\in\$ S
 
+   
+
 3. Commutative law(교환 법칙):
 
    x * y = y * x for all x, y $\in\$ S
+
+   
 
 4. Identity elements(단위 원소):
 
    e * x = x * e = x, for all x $\in\$ S
 
+   
+
 5. Inverse(역원):
 
    A set S having the identity elements for all x, y $\in\$ S, x * y = e
+
+   
 
 6. Distributive law(분배 법칙):
 
@@ -47,7 +56,7 @@ use_math: true
 
 ### Basic theorems & Properties
 
-![image-20230404124835696](C:\blogmaker\images\2023-04-05-Review0405-DigitalEngineering\image-20230404124835696.png)
+![image-20230404124835696]({{site.url}}\images\2023-04-05-Review0405-DigitalEngineering\image-20230404124835696.png)
 
 #### Duality
 
@@ -111,7 +120,7 @@ Complement each literal F' = x' + (y + z)(y' + z')
 
 ### Canonical & Standard Forms
 
-![image-20230404125706575](C:\blogmaker\images\2023-04-05-Review0405-DigitalEngineering\image-20230404125706575.png)
+![image-20230404125706575]({{site.url}}\images\2023-04-05-Review0405-DigitalEngineering\image-20230404125706575.png)
 
 Minterms and Maxterms are the complements
 
@@ -121,7 +130,7 @@ Minterms and Maxterms are the complements
 
 F = A + B'C
 
-![image-20230404132548934](C:\blogmaker\images\2023-04-05-Review0405-DigitalEngineering\image-20230404132548934.png)
+![image-20230404132548934]({{site.url}}\images\2023-04-05-Review0405-DigitalEngineering\image-20230404132548934.png)
 
 A = A(B + B') = AB(C + C') + AB'(C + C') = ABC + ABC' + AB'C + AB'C'
 
@@ -141,7 +150,7 @@ F = xy + x'z
 
   = (xy + x')(xy + z) = (x + x')(y + x')(x + z)(y + z) = (x' + y)(x + z)(y + z)
 
-![image-20230404133459089](C:\blogmaker\images\2023-04-05-Review0405-DigitalEngineering\image-20230404133459089.png)
+![image-20230404133459089]({{site.url}}\images\2023-04-05-Review0405-DigitalEngineering\image-20230404133459089.png)
 
 x' + y = x' + y + zz' =(x' + y + z)(x' + y + z')
 
@@ -178,7 +187,7 @@ F(x, y, z) = $\prod\$(0, 2, 4, 5) = $\sum\$ (1, 3, 6, 7)
 * Sum of Products : F1 = y' +xy + x'yz' 
 * Product of Sums : F2 = x(y'+z)(x'+y+z')
 
-![image-20230404134625974](C:\blogmaker\images\2023-04-05-Review0405-DigitalEngineering\image-20230404134625974.png)
+![image-20230404134625974]({{site.url}}\images\2023-04-05-Review0405-DigitalEngineering\image-20230404134625974.png)
 
 
 
@@ -186,13 +195,13 @@ F(x, y, z) = $\prod\$(0, 2, 4, 5) = $\sum\$ (1, 3, 6, 7)
 
 F3 = AB + C(D+E) = AB +CD + CE
 
-![image-20230404134726694](C:\blogmaker\images\2023-04-05-Review0405-DigitalEngineering\image-20230404134726694.png)
+![image-20230404134726694]({{site.url}}\images\2023-04-05-Review0405-DigitalEngineering\image-20230404134726694.png)
 
 
 
 ## Digital Logic Gates
 
-![image-20230404134817310](C:\blogmaker\images\2023-04-05-Review0405-DigitalEngineering\image-20230404134817310.png)
+![image-20230404134817310]({{site.url}}\images\2023-04-05-Review0405-DigitalEngineering\image-20230404134817310.png)
 
 ↓ is the symbol for **NOR**
 
