@@ -1,8 +1,8 @@
 ---
 layout: single
 title:  "Chapter 1. 디지털 시스템과 2진수"
-categories: DigitalDesign
-tag: [디지털디자인, 나작복]
+categories: DigitalEngineering
+tag: [디지털공학, 나작복]
 toc: true
 author_profile: false
 sidebar:
