@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Chapter 1. 디지털 시스템과 2진수"
+title:  "Chapter 1. Digital Systems & Binary Numbers"
 categories: DigitalEngineering
 tag: [디지털공학, 나작복]
 toc: true
