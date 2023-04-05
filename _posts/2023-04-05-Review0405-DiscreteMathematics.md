@@ -69,7 +69,7 @@ use_math: true
 
 ​	$p_{n+1}\$의 경우에도 성립
 
-![image-20230405204919240](C:\blogmaker\images\2023-04-05-Review0405-DiscreteMathematics\image-20230405204919240.png)
+![image-20230405204919240]({{site.url}}\images\2023-04-05-Review0405-DiscreteMathematics\image-20230405204919240.png)
 
 
 
@@ -81,7 +81,7 @@ use_math: true
 
 p $\rightarrow\$ q가 참인 것과 p $\land\$ (~q)가 거짓임은 동치이므로  p $\land\$ (~q)가 참이라고 가정하고, 그 결과 모순이 유도되면 원래의 명제가 참임을 증명한 셈이다.
 
-![image-20230405205155015](C:\blogmaker\images\2023-04-05-Review0405-DiscreteMathematics\image-20230405205155015.png)
+![image-20230405205155015]({{site.url}}\images\2023-04-05-Review0405-DiscreteMathematics\image-20230405205155015.png)
 
 
 
@@ -89,7 +89,7 @@ p $\rightarrow\$ q가 참인 것과 p $\land\$ (~q)가 거짓임은 동치이므
 
 명제 p $\rightarrow\$ q의 직접 증명은 논리적으로 p의 진리 값이 참일 때 q도 참임을 보이는 증명 방법이다.
 
-![image-20230405205315009](C:\blogmaker\images\2023-04-05-Review0405-DiscreteMathematics\image-20230405205315009.png)
+![image-20230405205315009]({{site.url}}\images\2023-04-05-Review0405-DiscreteMathematics\image-20230405205315009.png)
 
 
 
@@ -99,7 +99,7 @@ p $\rightarrow\$ q와 ~q $\rightarrow\$ ~p가 대우 관계로서 논리적 동�
 
 p $\rightarrow\$ q가 참이 되는 것을 논리적 동치 관계를 이용하여 간접적으로 보여 주는 증명 방법이다.
 
-![image-20230405205632188](C:\blogmaker\images\2023-04-05-Review0405-DiscreteMathematics\image-20230405205632188.png)
+![image-20230405205632188]({{site.url}}\images\2023-04-05-Review0405-DiscreteMathematics\image-20230405205632188.png)
 
 
 
@@ -109,7 +109,7 @@ $p(x)\$를 $x\$라는 변수를 가지는 명제라고 한다면 $p(x)\$가 참�
 
 $\exists\$$x\$ such that $p(x)\$
 
-![image-20230405205835458](C:\blogmaker\images\2023-04-05-Review0405-DiscreteMathematics\image-20230405205835458.png)
+![image-20230405205835458]({{site.url}}\images\2023-04-05-Review0405-DiscreteMathematics\image-20230405205835458.png)
 
 
 
@@ -123,7 +123,7 @@ $\forall\$x $p(x)\$이 거짓임을 보이기 위해 ~[$\forall\$x $p(x)\$]와 �
 
 이 경우 $x\$를 **반례**라고 한다.
 
-![image-20230405210139009](C:\blogmaker\images\2023-04-05-Review0405-DiscreteMathematics\image-20230405210139009.png)
+![image-20230405210139009]({{site.url}}\images\2023-04-05-Review0405-DiscreteMathematics\image-20230405210139009.png)
 
 
 
@@ -135,4 +135,4 @@ $\forall\$x $p(x)\$이 거짓임을 보이기 위해 ~[$\forall\$x $p(x)\$]와 �
 
 p $\leftrightarrow\$ q $\equiv\$ (p $\rightarrow\$ q) $\land\$ (q $\rightarrow\$ p)
 
-![image-20230405210641624](C:\blogmaker\images\2023-04-05-Review0405-DiscreteMathematics\image-20230405210641624.png)
+![image-20230405210641624]({{site.url}}\images\2023-04-05-Review0405-DiscreteMathematics\image-20230405210641624.png)
