@@ -78,11 +78,11 @@ F2(w, x, y, z) = $\sum\$(1, 3, 5, 7, 11, 15)
 
 ## NAND & NOR implementation
 
-#### NAND circuits
+### NAND circuits
 
 ![image-20230408194201608]({{site.url}}\images\2023-04-08-Review0408-DigitalEngineering\image-20230408194201608.png)
 
-#### NAND implementation
+### NAND implementation
 
 F = AB + CD
 
@@ -92,13 +92,13 @@ F = AB + CD
 
 
 
-#### NOR circuits
+### NOR circuits
 
 ![image-20230408194435389]({{site.url}}\images\2023-04-08-Review0408-DigitalEngineering\image-20230408194435389.png)
 
 
 
-#### NOR implementation
+### NOR implementation
 
 F = (A + B)(C + D)E
 
