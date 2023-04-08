@@ -213,7 +213,7 @@ F3 = AB + C(D+E) = AB +CD + CE
 
 The **NAND** and **NOR** operators are not associative.
 
-(xy)↓z ≠ x↓(y↓z) 	: not associative
+(x↓y)↓z ≠ x↓(y↓z) 	: not associative
 
 (x↓y)↓z = [(x+y)'+z]' = (x+y)z'= xz' + yz' $\nleftrightarrow\$ x↓(y↓z)= [x+(y+z)']' = x'(y+z)= x'y + x'z	: not associative
 
