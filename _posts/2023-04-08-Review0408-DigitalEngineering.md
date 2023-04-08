@@ -122,7 +122,7 @@ F = (A + B)(C + D)E
 
 
 
-#### implementation with NAND Gates
+### implementation with NAND Gates
 
 ![image-20230408195528149]({{site.url}}\images\2023-04-08-Review0408-DigitalEngineering\image-20230408195528149.png)
 
